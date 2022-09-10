@@ -1,6 +1,7 @@
 function getURL(){
     const url = document.getElementById('url-field');
     const urlValue = url.value;
+    url.value = '';
 
     rbs = urlValue.substr(0, urlValue.lastIndexOf('/'));
     //rmvBackwordSlash = https://thumbs.theync.com/thumbs/8/2/9/2/1/829216138400f49608.mp4/829216138400f49608.mp4-9.jpg
